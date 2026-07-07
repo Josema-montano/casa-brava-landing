@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Elegant table setting scene">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="55%" stop-color="#1a1112"/>
+      <stop offset="100%" stop-color="#5e5a55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="90" y="210" width="620" height="550" rx="46" fill="#151010" opacity="0.88"/>
+  <circle cx="260" cy="480" r="148" fill="#d8c3a5" opacity="0.16"/>
+  <circle cx="545" cy="480" r="148" fill="#f4efe7" opacity="0.08"/>
+  <rect x="185" y="330" width="120" height="280" rx="36" fill="#6e1f2a" opacity="0.82"/>
+  <rect x="338" y="320" width="124" height="310" rx="36" fill="#0d0d0d" opacity="0.7"/>
+  <rect x="493" y="330" width="120" height="280" rx="36" fill="#b23a2e" opacity="0.52"/>
+  <path d="M145 760 H655" stroke="#f4efe7" stroke-opacity="0.1" stroke-width="16" stroke-linecap="round"/>
+</svg>

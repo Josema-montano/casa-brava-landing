@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Private dining room scene">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="55%" stop-color="#1d1315"/>
+      <stop offset="100%" stop-color="#5e5a55"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <rect x="110" y="120" width="680" height="390" rx="48" fill="#151010" opacity="0.82"/>
+  <rect x="180" y="175" width="540" height="64" rx="18" fill="#d8c3a5" opacity="0.14"/>
+  <rect x="250" y="295" width="400" height="150" rx="32" fill="#2a1b1e" opacity="0.9"/>
+  <rect x="295" y="320" width="310" height="100" rx="24" fill="#0d0d0d" opacity="0.7"/>
+  <path d="M250 560 H650" stroke="#f4efe7" stroke-opacity="0.1" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="255" cy="565" r="42" fill="#6e1f2a" opacity="0.7"/>
+  <circle cx="645" cy="565" r="42" fill="#b23a2e" opacity="0.55"/>
+</svg>

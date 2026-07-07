@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Fire kitchen detail scene">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#120d0d"/>
+      <stop offset="55%" stop-color="#3a171d"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <rect x="120" y="120" width="660" height="360" rx="46" fill="#151010" opacity="0.88"/>
+  <path d="M450 520 C405 450, 392 385, 420 325 C438 360, 456 381, 468 420 C480 381, 498 360, 516 325 C544 385, 531 450, 450 520 Z" fill="#b23a2e" opacity="0.82"/>
+  <path d="M450 500 C425 455, 422 420, 438 386 C449 406, 458 423, 465 442 C474 423, 483 406, 494 386 C510 420, 507 455, 450 500 Z" fill="#f4efe7" opacity="0.18"/>
+  <rect x="180" y="560" width="540" height="62" rx="22" fill="#d8c3a5" opacity="0.12"/>
+</svg>

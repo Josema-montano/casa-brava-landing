@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Casa Brava stone and fire still life">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="55%" stop-color="#231316"/>
+      <stop offset="100%" stop-color="#5e5a55"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8c3a5" stop-opacity="0.45"/>
+      <stop offset="35%" stop-color="#b23a2e" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.2"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <circle cx="890" cy="260" r="130" fill="#b23a2e" opacity="0.2"/>
+  <rect x="115" y="560" width="980" height="150" rx="44" fill="#0d0d0d" opacity="0.82"/>
+  <rect x="165" y="250" width="370" height="410" rx="44" fill="#1a1412" opacity="0.96"/>
+  <rect x="225" y="300" width="250" height="300" rx="28" fill="#2c2420" opacity="0.9"/>
+  <circle cx="280" cy="370" r="58" fill="#d8c3a5" opacity="0.15"/>
+  <circle cx="345" cy="420" r="72" fill="#b23a2e" opacity="0.45"/>
+  <circle cx="415" cy="355" r="48" fill="#f4efe7" opacity="0.1"/>
+  <rect x="655" y="240" width="350" height="430" rx="52" fill="#151010" opacity="0.92"/>
+  <path d="M735 640 C740 520, 780 470, 815 420 C855 470, 895 520, 900 640 Z" fill="#b23a2e" opacity="0.68"/>
+  <path d="M790 610 C790 540, 815 500, 835 470 C860 500, 885 540, 885 610 Z" fill="#f4efe7" opacity="0.14"/>
+  <rect width="1200" height="900" filter="url(#grain)" opacity="0.9"/>
+</svg>

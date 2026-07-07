@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Warm light reflections scene">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#120d0d"/>
+      <stop offset="55%" stop-color="#2f1a1d"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <radialGradient id="light" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#d8c3a5" stop-opacity="0.42"/>
+      <stop offset="35%" stop-color="#b23a2e" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#light)"/>
+  <ellipse cx="400" cy="300" rx="210" ry="98" fill="#f4efe7" opacity="0.08"/>
+  <ellipse cx="400" cy="300" rx="160" ry="70" fill="#d8c3a5" opacity="0.14"/>
+  <rect x="140" y="520" width="520" height="230" rx="46" fill="#151010" opacity="0.86"/>
+  <circle cx="220" cy="600" r="36" fill="#d8c3a5" opacity="0.24"/>
+  <circle cx="400" cy="610" r="36" fill="#b23a2e" opacity="0.44"/>
+  <circle cx="580" cy="600" r="36" fill="#f4efe7" opacity="0.12"/>
+</svg>
